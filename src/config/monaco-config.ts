@@ -1,0 +1,34 @@
+const editorOptions = {
+  automaticLayout: true,
+  contextmenu: true,
+  dragAndDrop: true,
+  dropIntoEditor: {
+    enabled: true,
+  },
+  detectIndentation: false,
+  fixedOverflowWidgets: false,
+  fontFamily: "Fira Mono",
+  fontSize: 16,
+  formatOnPaste: true,
+  formatOnType: true,
+  lineHeight: 1.5,
+  minimap: {
+    enabled: true,
+  },
+  padding: {
+    top: 8,
+    button: 8,
+  },
+  scrollbar: {
+    verticalScrollbarSize: 9,
+    horizontalScrollbarSize: 9,
+    alwaysConsumeMouseWheel: false,
+  },
+  scrollBeyondLastLine: false,
+  smoothScrolling: true,
+  tabSize: 4,
+  quickSuggestions: true,
+  wordBasedSuggestions: true,
+};
+
+export default editorOptions;
