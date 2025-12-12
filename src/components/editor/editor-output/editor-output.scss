@@ -1,0 +1,9 @@
+.editor-output-wrapper {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+
+  @media screen and (min-width: 769px) {
+    max-width: 50%;
+  }
+}
